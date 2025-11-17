@@ -78,6 +78,7 @@ A ideia no projeto nasceu de uma masterclass do professor de música Nelson Fari
 ## Roadmap
 
 - [ ] Adicionar Changelog
+- [ ] Adicionar opção "Não repetir escalas"
 - [ ] Adicionar visualização de partituras, tablaturas e braço dos instrumentos
 - [ ] Adicionar metrônomo
 - [ ] Suporte a vários Idiomas
