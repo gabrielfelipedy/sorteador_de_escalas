@@ -61,10 +61,10 @@ const ScalesPicker = () => {
 
 
     return (
-        <section className="flex flex-col items-center gap-10 mt-16">
+        <section className="flex flex-col items-center gap-10">
             <p className='text-center'>Escolha as categorias de escalas abaixo:</p>
 
-            <div className="grid grid-cols-1 xs:grid-cols-2 md:grid-cols-3 gap-6 w-full xs:w-fit mx-auto shadow-lg rounded-lg p-6 bg-white">
+            <div className="grid grid-cols-1 xs:grid-cols-2 gap-6 w-full xs:w-fit mx-auto shadow-lg rounded-lg p-6 bg-white">
 
                 {Object.keys(scales).map((key) => (
                     <div key={key} className="flex items-center gap-3">
