@@ -1,0 +1,70 @@
+export const scales = {
+    escalas_maiores: {
+        C: ['C', 'D', 'E', 'F', 'G', 'A', 'B'],
+        D: ['D', 'E', 'F#', 'G', 'A', 'B', 'C#'],
+        E: ['E', 'F#', 'G#', 'A', 'B', 'C#', 'D#'],
+        F: ['F', 'G', 'A', 'Bb', 'C', 'D', 'E'],
+        G: ['G', 'A', 'B', 'C', 'D', 'E', 'F#'],
+        A: ['A', 'B', 'C#', 'D', 'E', 'F#', 'G#'],
+        B: ['B', 'C#', 'D#', 'E', 'F#', 'G#', 'A#'],
+    },
+    escalas_menor_naturais: {
+        C: ['C', 'D', 'Eb', 'F', 'G', 'Ab', 'Bb'],
+        D: ['D', 'E', 'F', 'G', 'A', 'Bb', 'C'],
+        E: ['E', 'F#', 'G', 'A', 'B', 'C', 'D'],
+        F: ['F', 'G', 'Ab', 'Bb', 'C', 'Db', 'Eb'],
+        G: ['G', 'A', 'Bb', 'C', 'D', 'Eb', 'F'],
+        A: ['A', 'B', 'C', 'D', 'E', 'F', 'G'],
+        B: ['B', 'C#', 'D', 'E', 'F#', 'G', 'A'],
+    },
+    escalas_menor_harmonicas: {
+        C: ['C', 'D', 'Eb', 'F', 'G', 'Ab', 'B'],
+        D: ['D', 'E', 'F', 'G', 'A', 'Bb', 'C#'],
+        E: ['E', 'F#', 'G', 'A', 'B', 'C', 'D#'],
+        F: ['F', 'G', 'Ab', 'Bb', 'C', 'Db', 'E'],
+        G: ['G', 'A', 'Bb', 'C', 'D', 'Eb', 'F#'],
+        A: ['A', 'B', 'C', 'D', 'E', 'F', 'G#'],
+        B: ['B', 'C#', 'D', 'E', 'F#', 'G', 'A#'],
+    },
+    escalas_menor_melodicas: {
+        C: ['C', 'D', 'Eb', 'F', 'G', 'A', 'B'],
+        D: ['D', 'E', 'F', 'G', 'A', 'B', 'C#'],
+        E: ['E', 'F#', 'G', 'A', 'B', 'C#', 'D#'],
+        F: ['F', 'G', 'Ab', 'Bb', 'C', 'D', 'E'],
+        G: ['G', 'A', 'Bb', 'C', 'D', 'E', 'F#'],
+        A: ['A', 'B', 'C', 'D', 'E', 'F#', 'G#'],
+        B: ['B', 'C#', 'D', 'E', 'F#', 'G#', 'A#'],
+    },
+    escalas_pentatonicas: {
+        C: ['C', 'D', 'E', 'G', 'A'],
+        D: ['D', 'E', 'F#', 'A', 'B'],
+        E: ['E', 'F#', 'G#', 'B', 'C#'],
+        F: ['F', 'G', 'A', 'C', 'D'],
+        G: ['G', 'A', 'B', 'D', 'E'],
+        A: ['A', 'B', 'C#', 'E', 'F#'],
+        B: ['B', 'C#', 'D#', 'F#', 'G#'],
+    },
+    escalas_blues: {
+        C: ['C', 'D', 'Eb', 'E', 'G', 'A'],
+        D: ['D', 'E', 'F', 'F#', 'A', 'B'],
+        E: ['E', 'F#', 'G', 'G#', 'B', 'C#'],
+        F: ['F', 'G', 'Ab', 'A', 'C', 'D'],
+        G: ['G', 'A', 'Bb', 'B', 'D', 'E'],
+        A: ['A', 'B', 'C', 'C#', 'E', 'F#'],
+        B: ['B', 'C#', 'D','D#', 'F#', 'G#'],
+    },
+    escalas_diminutas: {
+        'C': ['C', 'D', 'Eb', 'F', 'Gb', 'Ab', 'A', 'B'],
+        'C#': ['C#', 'D#', 'E', 'F#', 'G', 'A', 'A#', 'C'],
+        'D': ['D', 'E', 'F', 'G', 'G#', 'A#', 'B', 'C#']
+    },
+    escalas_domdim: {
+        'C': ['C', 'Db', 'Eb', 'Fb', 'Gb', 'G', 'A', 'Bb'],
+        'C#': ['C#', 'D', 'E', 'F', 'G', 'Ab', 'Bb', 'B'],
+        'D': ['D', 'Eb', 'F', 'Gb', 'Ab', 'A', 'B', 'C']
+    },
+    escalas_hexafonicas: {
+        'C': ['C', 'D', 'E', 'F#', 'G#', 'A#'],
+        'C#': ['C#', 'D#', 'E#', 'F##', 'G##', 'A##'],
+    },
+}
