@@ -64,7 +64,7 @@ const ScalesPicker = () => {
         <section className="flex flex-col items-center gap-10 mt-16">
             <p className='text-center'>Escolha as categorias de escalas abaixo:</p>
 
-            <div className="grid grid-cols-3 gap-6 w-fit mx-auto border-2 rounded-lg p-6">
+            <div className="grid grid-cols-1 xs:grid-cols-2 md:grid-cols-3 gap-6 w-full xs:w-fit mx-auto border-2 rounded-lg p-6">
 
                 {Object.keys(scales).map((key) => (
                     <div key={key} className="flex items-center gap-3">
@@ -80,13 +80,13 @@ const ScalesPicker = () => {
 
             </div>
 
-            <div className="flex gap-6">
+            <div className="flex flex-col xs:flex-row gap-2 sm:gap-6 w-full">
 
-                <Button onClick={handleSortear} className='w-fit mx-auto'>Sortear</Button>
+                <Button onClick={handleSortear} className='w-full xs:w-fit mx-auto'>Sortear</Button>
 
-                <Button variant="outline" onClick={selectAllScales} className='w-fit mx-auto'>Selecionar todas</Button>
+                <Button variant="outline" onClick={selectAllScales} className='w-full xs:w-fit mx-auto'>Selecionar todas</Button>
 
-                <Button variant="outline" onClick={clearFilters} className='w-fit mx-auto'>Limpar filtros</Button>
+                <Button variant="outline" onClick={clearFilters} className='w-full xs:w-fit mx-auto'>Limpar filtros</Button>
             </div>
         </section>
     )
