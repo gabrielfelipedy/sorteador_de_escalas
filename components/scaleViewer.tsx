@@ -22,7 +22,7 @@ const ScaleViewer = () => {
 
   return (
     <section className="flex justify-center mt-10">
-    <div className="border-2 rounded-lg px-20 py-6 w-fit">
+    <div className="rounded-lg px-20 py-6 w-fit bg-white shadow-lg">
         <h2 className="text-2xl font-bold text-center">{`${scale.scaleTonic} ${scaleNameParser[scale.scaleType as keyof typeof scaleNameParser] ?? 'Nenhuma escala selecionada'}`}</h2>
         <p className="text-lg text-center">{scale.scaleNotes.join(', ')}</p>
     </div>
