@@ -80,7 +80,7 @@ const ScalesPicker = () => {
 
             </div>
 
-            <div className="flex flex-col xs:flex-row gap-2 sm:gap-6 w-full">
+            <div className="flex flex-col xs:flex-row gap-4 sm:gap-6 w-full xs:w-fit">
 
                 <Button onClick={handleSortear} className='w-full xs:w-fit mx-auto'>Sortear</Button>
 
