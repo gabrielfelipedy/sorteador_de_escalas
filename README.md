@@ -30,11 +30,11 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <!--
+  
   <a href="https://github.com/othneildrew/Best-README-Template">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+    <img src="docs/imgs/project-screenshoot.png" alt="Logo">
   </a>
-  -->
+  
 
   <h3 align="center">Sorteador de escalas</h3>
 
@@ -68,7 +68,7 @@ A ideia no projeto nasceu de uma masterclass do professor de música Nelson Fari
 
 ### Feito com
 
-* [![Next][Next.js]][Next-url]
+[![Next][Next.js]][Next-url]
 
 <p align="right">(<a href="#readme-top">Voltar ao topo</a>)</p>
 
